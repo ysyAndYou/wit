@@ -1,0 +1,131 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智慧烘料节能系统"
+			}
+		},
+		{
+			"path": "pages/warning/list",
+			"style": {
+				"navigationBarTitleText": "设备报警记录"
+			}
+		},
+		{
+			"path": "pages/material/list",
+			"style": {
+				"navigationBarTitleText": "原料选择"
+			}
+		},
+		{
+			"path": "pages/material/detail",
+			"style": {
+				"navigationBarTitleText": "实际温度状态"
+			}
+		},
+		{
+			"path": "pages/manage/index",
+			"style": {
+				"navigationBarTitleText": "管理界面"
+			}
+		},
+		{
+			"path": "pages/manage/password",
+			"style": {
+				"navigationBarTitleText": "密码"
+			}
+		},
+		{
+			"path": "pages/manage/userSet/list",
+			"style": {
+				"navigationBarTitleText": "用户设定"
+			}
+		},
+		{
+			"path": "pages/manage/manageSet/list",
+			"style": {
+				"navigationBarTitleText": "管理设定"
+			}
+		},
+		{
+			"path": "pages/manage/factorySet/list",
+			"style": {
+				"navigationBarTitleText": "工厂设定"
+			}
+		},
+		
+		{
+			"path": "pages/manage/factorySet/powerSaved",
+			"style": {
+				"navigationBarTitleText": "省电信息"
+			}
+		},
+		{
+			"path": "pages/hitch/index",
+			"style": {
+				"navigationBarTitleText": "故障复位"
+			}
+		},
+		{
+			"path": "pages/device/list",
+			"style": {
+				"navigationBarTitleText": "设备列表"
+			}
+		},
+		{
+			"path": "pages/device/binding",
+			"style": {
+				"navigationBarTitleText": "设备绑定"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/service/index",
+			"style": {
+				"navigationBarTitleText": "售后服务"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#009ad6",
+		"backgroundColor": "#009ad6",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		// "selectedColor": "#FE3112",
+		// "color": "#009ad6",
+		"color": "#6e6d6b",
+		"selectedColor": "#009ad6",
+		"borderStyle": "black",
+		"list": [
+			{
+				"iconPath": "./static/home.png",
+				"selectedIconPath": "./static/home1.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "./static/device.png",
+				"selectedIconPath": "./static/device1.png",
+				"pagePath": "pages/device/list",
+				"text": "设备列表"
+			}
+		]
+	}
+}
